@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-right: 500px;
+  }
+  
+  .left {
+    max-width: 500px;
+    margin-right: 50px;
+  }
+  
+  .left h1 {
+    color: #1877f2;
+    font-size: 4rem;
+    margin-bottom: 35rem;
+    text-align: center;
+    padding-left: 590px;
+  }
+  
+  .left p {
+    font-size: 1.5rem;
+    
+  }
+  
+  .right {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    text-align: center;
+    
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  
+  }
+  
+  .login-form a {
+    display: block;
+    margin: 1rem 0;
+    color: #1877f2;
+    font-size: 0.95rem;
+    text-decoration: none;
+  }
+  
+  .login-form hr {
+    margin: 1.5rem 0;
+  }
+  
+  .create-btn {
+    background-color: #42b72a;
+  }
+  
+  .right p {
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
